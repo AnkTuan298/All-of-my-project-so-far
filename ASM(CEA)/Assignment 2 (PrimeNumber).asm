@@ -53,7 +53,7 @@ s3:
 
 T: 
 print " is a prime."
-;printn                             ; delete " ; " to create a check
+;printn                             ; delete " ; " to check multiple numbers
 ;print "Press enter to continue  "
 ;call scan_num
 ;mov ax, 0
@@ -62,8 +62,8 @@ print " is a prime."
 ret
 
 F:
-print " is not a prime."            ; delete " ; " to create a check
-;printn
+print " is not a prime."            
+;printn                             ; delete " ; " to check multiple numbers
 ;print "Press enter to continue  "
 ;call scan_num
 ;mov ax, 0
